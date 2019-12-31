@@ -1,0 +1,27 @@
+{
+  "name": "partners",
+  "plural": "partners",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "keyarea": {
+      "type": "string",
+      "required": true
+    },
+    "practicearea": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
